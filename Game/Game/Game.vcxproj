@@ -91,6 +91,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="saf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\3rdparty\SDL2.lib" />
+    <Library Include="..\3rdparty\SDL2main.lib" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -3,4 +3,20 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="saf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{36a60e0a-a56e-45ac-8a57-336242a3b017}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\3rdparty\SDL2.lib">
+      <Filter>SDL</Filter>
+    </Library>
+    <Library Include="..\3rdparty\SDL2main.lib">
+      <Filter>SDL</Filter>
+    </Library>
+  </ItemGroup>
 </Project>
